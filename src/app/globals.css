@@ -1,29 +1,6 @@
 @import "tailwindcss";
-.font-krona-one {
-  font-family: var(--font-krona-one), sans-serif;
 
-}.font-unbounded {
-  font-family: var(--font-unbounded), sans-serif;
-}
-.font-zen-dots {
-  font-family: var(--font-zen-dots), sans-serif;
-}
-
-.font-gayathri {
-  font-family: var(--font-gayathri), sans-serif;
-}
-
-.font-krona-one {
-  font-family: var(--font-krona-one), sans-serif;
-}
-
-.font-stint-ultra-expanded {
-  font-family: var(--font-stint-ultra-expanded), sans-serif;
-}
-.font-space-grotesk {
-  font-family: var(--font-space-grotesk), sans-serif;
-}
-
-.font-raleway {
-  font-family: var(--font-raleway), sans-serif;
+/* Apply Figtree globally using the CSS variable */
+body {
+  font-family: var(--font-figtree), sans-serif;
 }
